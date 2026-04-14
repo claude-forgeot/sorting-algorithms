@@ -1,0 +1,6 @@
+# Bandit configuration for sorting-algorithms.
+# B311: random usage flagged as non-crypto. Ici, random est utilise uniquement
+# pour generer des datasets de tri et des motifs visuels deterministes.
+# Aucun contexte cryptographique.
+skips:
+  - B311

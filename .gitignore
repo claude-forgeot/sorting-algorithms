@@ -1,0 +1,28 @@
+# Fichiers Claude — JAMAIS dans ce repo
+.claude/
+CLAUDE.md
+MEMORY.md
+memory/
+episodic/
+*.template
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Benchmark output (auto-generated)
+benchmark_*.json
+benchmark_*.csv
+benchmark_export_*.csv
+benchmark_export_*.pdf
+.benchmark.db
+.menu_history.json
+.pytest_cache/

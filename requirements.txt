@@ -1,0 +1,4 @@
+pygame
+numpy
+pytest
+fpdf2
