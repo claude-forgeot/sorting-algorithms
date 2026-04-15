@@ -19,6 +19,8 @@ The returned dict has these keys:
     algos  list[str]   active subset of ALGORITHMS
 """
 
+from __future__ import annotations
+
 import json
 import random
 import time

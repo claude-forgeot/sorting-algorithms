@@ -10,6 +10,8 @@ Events received from insertion_sort:
     set     : (k, k,   "set")    -- key placed at its final position k
 """
 
+from __future__ import annotations
+
 import colorsys
 
 import pygame

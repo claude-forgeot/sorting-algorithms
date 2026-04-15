@@ -6,6 +6,8 @@ Displays three vertical sections in a panel ~180px wide:
   3. Complexity         -- best/average/worst/space table for the active algo
 """
 
+from __future__ import annotations
+
 import pygame
 
 from visualization.history import StepHistory

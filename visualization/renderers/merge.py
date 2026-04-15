@@ -29,6 +29,8 @@ updated on each call. Detection of a new merge relies on the
 next comparison always signals a new merge.
 """
 
+from __future__ import annotations
+
 import math
 
 import pygame

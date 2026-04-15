@@ -3,6 +3,8 @@
 Identity color: #f472b6 (pink).
 """
 
+from __future__ import annotations
+
 import pygame
 
 from visualization.renderers.base import BaseRenderer

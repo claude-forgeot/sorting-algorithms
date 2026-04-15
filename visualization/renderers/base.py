@@ -4,6 +4,8 @@ A renderer receives a state (arr + highlights + done) and a rectangular
 area, and is responsible for drawing it onto a pygame surface.
 """
 
+from __future__ import annotations
+
 import abc
 from typing import Callable
 

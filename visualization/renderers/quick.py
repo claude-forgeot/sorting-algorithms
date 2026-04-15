@@ -3,6 +3,8 @@
 Identity color: #ef4444 (red).
 """
 
+from __future__ import annotations
+
 import pygame
 
 from visualization.renderers.base import BaseRenderer

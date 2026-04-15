@@ -11,6 +11,8 @@ Returns (preset, n) when the user confirms, or None while the modal
 is open. The is_active property becomes False after confirmation or cancellation.
 """
 
+from __future__ import annotations
+
 import pygame
 
 from visualization.datasets import PRESETS_META, generate, normalize

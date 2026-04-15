@@ -9,6 +9,8 @@ Events received:
     swap    : (j, j+1, "swap")    -- adjacent pair being swapped
 """
 
+from __future__ import annotations
+
 import colorsys
 
 import pygame

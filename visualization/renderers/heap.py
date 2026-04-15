@@ -12,6 +12,8 @@ Displays two zones within the assigned area:
 Identity color: #f59e0b (amber).
 """
 
+from __future__ import annotations
+
 import pygame
 
 from visualization.renderers.base import BaseRenderer

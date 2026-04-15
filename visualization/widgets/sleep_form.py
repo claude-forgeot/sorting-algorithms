@@ -4,6 +4,8 @@ Compact form: [checkbox enabled] [ms input] [label]. Consumes minimal
 vertical space to slot into existing hint bars without layout changes.
 """
 
+from __future__ import annotations
+
 import pygame
 
 from visualization._common import (

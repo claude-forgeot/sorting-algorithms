@@ -7,6 +7,8 @@ Public interface:
     run_score_screen(screen, db_path) -> None
 """
 
+from __future__ import annotations
+
 import time as _time
 from datetime import datetime
 import pygame

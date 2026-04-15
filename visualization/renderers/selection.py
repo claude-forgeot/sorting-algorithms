@@ -9,6 +9,8 @@ Events received from selection_sort:
     swap    : (i, min_idx, "swap")    -- i = target position (boundary), min_idx = source
 """
 
+from __future__ import annotations
+
 import colorsys
 
 import pygame

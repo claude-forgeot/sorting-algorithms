@@ -15,6 +15,8 @@ Space complexity: O(n + k)
     (vs O(n * k) if we copied arr at every step)
 """
 
+from __future__ import annotations
+
 # A delta represents a single algorithm step.
 # Internally, steps are either:
 #   - SwapDelta: (i, j, event_type)  -- compare/swap on two indices

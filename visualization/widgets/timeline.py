@@ -7,6 +7,8 @@ Horizontal strip (~60px) composed of two rows:
 Keyboard shortcuts: 1-5 to change playback speed (0.25x to 5x).
 """
 
+from __future__ import annotations
+
 import pygame
 
 from visualization.history import StepHistory

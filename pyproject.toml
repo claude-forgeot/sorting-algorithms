@@ -1,0 +1,13 @@
+[project]
+name = "papyrus-heron-sorting"
+version = "0.1.0"
+description = "Implémentation et visualisation de 7 algorithmes de tri"
+requires-python = ">=3.9"
+dependencies = [
+    "pygame",
+    "numpy",
+    "fpdf2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]

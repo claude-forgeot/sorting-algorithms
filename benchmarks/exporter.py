@@ -1,5 +1,7 @@
 """Export benchmark data from the SQLite database to CSV or PDF."""
 
+from __future__ import annotations
+
 import csv
 from datetime import datetime
 

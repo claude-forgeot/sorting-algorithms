@@ -1,5 +1,7 @@
 """Dataset generation and configuration for the visualization."""
 
+from __future__ import annotations
+
 import random  # nosec B311 - dataset generation, not cryptographic
 
 # ---------------------------------------------------------------------------

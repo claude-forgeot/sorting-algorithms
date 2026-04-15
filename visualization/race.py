@@ -1,5 +1,7 @@
 """Race mode visualizer: all algorithms compete in parallel threads."""
 
+from __future__ import annotations
+
 import threading
 import time
 import pygame
